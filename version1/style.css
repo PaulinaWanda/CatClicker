@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+.list {
+    float: left;
+    padding-right: 20px;
+    max-width: 20%;
+}
+.clicker-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.cat {
+    width: 50%;
+    height: auto;
+    border: 7px solid #777777;
+    cursor: pointer;
+}
+.click-text {
+    padding-bottom: 15px;
+}

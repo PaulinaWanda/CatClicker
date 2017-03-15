@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+aside {
+    float: left;
+    padding-right: 20px;
+    max-width: 20%;
+}
+.cat-name {
+    cursor: pointer;
+    padding: 5px 0;
+}
+.clicker-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.cat {
+    width: 50%;
+    height: auto;
+    border: 7px solid #777777;
+    cursor: pointer;
+}
+.click-text {
+    padding-bottom: 15px;
+}
